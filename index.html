@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Albumin Creatinine Ratio Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="ACRRadio" name="variables" checked>
+  <label for="ACRRadio">ACR</label>
+
+  <input type="radio" id="albuminRadio" name="variables">
+  <label for="albuminRadio">Albumin</label>
+
+  <input type="radio" id="creatinineRadio" name="variables">
+  <label for="creatinineRadio">Creatinine</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">Albumin</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Creatinine</label>
+  <input type="number" id="v2"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
